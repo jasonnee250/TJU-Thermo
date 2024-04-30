@@ -1,0 +1,27 @@
+Log-file of program ./dymosim
+(generated: Thu Apr 20 10:52:45 2017)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+... "Cycle_condition_variation_OSORC.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
+Integration terminated successfully at T = 8000
+   CPU-time for integration      : 695 seconds
+   CPU-time for one GRID interval: 347 milli-seconds
+   Number of result points       : 2272
+   Number of GRID   points       : 2001
+   Number of (successful) steps  : 2178
+   Number of F-evaluations       : 212667
+   Number of H-evaluations       : 5469
+   Number of Jacobian-evaluations: 1720
+   Number of (model) time events : 5
+   Number of (U) time events     : 0
+   Number of state    events     : 132
+   Number of step     events     : 0
+   Minimum integration stepsize  : 0.000223
+   Maximum integration stepsize  : 32.8
+   Maximum integration order     : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
